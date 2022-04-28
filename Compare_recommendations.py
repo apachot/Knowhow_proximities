@@ -7,8 +7,9 @@ file1 = "input/HS_similarity_usingCF.csv"
 file2 = "input/HS92_proximities_fromHarvard.csv"
 file3 = "input/HS_proximities_fromSemanticAnalysis.csv"
 file4 = "input/HS_proximities_in_HS_nomenclature.csv"
+file5 = "input/HS_proximities_usingMDSandNAFchanges.csv"
 
-all_files = [file2, file3]
+all_files = [file2, file5]
 
 def doRecommendation(hs, file, k=5):
 	#return 'k' products near 'hs' according to the adjacency list in 'file'

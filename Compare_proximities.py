@@ -6,8 +6,9 @@ file1 = "input/HS_similarity_usingCF.csv"
 file2 = "input/HS92_proximities_fromHarvard.csv"
 file3 = "input/HS_proximities_fromSemanticAnalysis.csv"
 file4 = "input/HS_proximities_in_HS_nomenclature.csv"
+file5 = "input/HS_proximities_usingMDSandNAFchanges.csv"
 
-tables_list = [file1,file2,file3,file4]
+tables_list = [file1,file2,file3,file4,file5]
 
 for i in range(0, len(tables_list)):
 	for j in range (0, len(tables_list)):
